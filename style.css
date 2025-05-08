@@ -169,7 +169,7 @@ section {
 }
 
 
-.about-text, .skill-text, .project-text, .contact-text {
+.about-text, .skill-text, .project-text, .certificate-text, .contact-text {
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -277,8 +277,8 @@ article p {
     opacity: 0.8;
 }
 
-/* Project section improvements */
-.project-detail-container {
+
+.project-detail-container, .certificate-detail-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -296,7 +296,7 @@ article p {
     transform: translateY(-10px);
 }
 
-.project-image {
+.project-image, .certificate-image {
     width: 100%;
     height: auto;
     border-radius: 1rem;
@@ -304,22 +304,22 @@ article p {
     aspect-ratio: 16/9;
 }
 
-.project-title {
+.project-title, .certificate-title {
     color: bisque;
     margin: 1rem 0 0.5rem;
 }
 
-.project-sub-title {
+.project-sub-title, .certificate-sub-title {
     margin: 0 0 1rem;
 }
 
-.project-link {
+.project-link, .certificate-link {
     display: flex;
     justify-content: center;
     gap: 1rem;
 }
 
-.project-link a {
+.project-link a, .certificate-link a {
     border-radius: 30px;
     padding: 8px 20px;
     text-decoration: none;
@@ -330,13 +330,13 @@ article p {
     font-weight: 500;
 }
 
-.project-link a:hover {
+.project-link a:hover, .certificate-link a:hover {
     color: white;
     background-color: #171616;
     border: 1px solid bisque;
 }
 
-/* Contact section improvements */
+
 .contact {
     display: flex;
     flex-direction: column;
