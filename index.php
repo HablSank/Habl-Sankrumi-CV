@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="porto.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -257,17 +257,17 @@
           <h1 class="name-home">Kontak Saya</h1>
         </div>
         <div class="contact-form">
-            <form>
+            <form action="submit.php" method="POST">
                 <div class="input-group">
-                    <input type="text" id="name" placeholder=" " required>
+                    <input type="text" name="name" placeholder=" " required>
                     <label for="name">Nama Anda</label>
                 </div>
                 <div class="input-group">
-                    <input type="email" id="email" placeholder=" " required>
+                    <input type="email" name="email" placeholder=" " required>
                     <label for="email">Email Anda</label>
                 </div>
                 <div class="input-group">
-                    <textarea id="message" placeholder=" " rows="4" required></textarea>
+                    <textarea name="message" placeholder=" " rows="4" required></textarea>
                     <label for="message">Pesan Anda</label>
                 </div>
                 <button type="submit">Kirim</button>
