@@ -386,6 +386,7 @@ article p {
     pointer-events: none;
     background: transparent;
     padding: 0 0.5rem;
+    border-radius: 5px;
 }
 
 .input-group textarea + label {
