@@ -23,18 +23,14 @@ Halo! Saya telah melakukan perbaikan besar pada desain dan struktur website port
 
 Agar website ini berfungsi 100%, kamu perlu melakukan langkah-langkah berikut:
 
-### 1. Mengaktifkan Form Kontak
-Saat ini form kontak belum tersambung ke emailmu.
-1.  Buka website [Formspree](https://formspree.io/).
-2.  Daftar (Sign up) gratis.
-3.  Buat form baru (New Form).
-4.  Copy URL yang diberikan (contoh: `https://formspree.io/f/xvbdjdjd`).
-5.  Buka file `index.html` di kodinganmu.
-6.  Cari baris ini (sekitar baris 308):
-    ```html
-    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-    ```
-7.  Ganti `https://formspree.io/f/YOUR_FORM_ID` dengan URL Formspree milikmu.
+### 1. Form Kontak (Sudah Aktif)
+Saya sudah memasukkan link Formspree yang kamu berikan (`https://formspree.io/f/xzdpklav`).
+Sekarang form kontak **sudah bisa digunakan langsung**.
+
+Jika suatu saat kamu mengganti akun atau membuat form baru:
+1.  Buka file `index.html`.
+2.  Cari bagian `<form action="...">`.
+3.  Ganti link di dalamnya dengan link baru dari Formspree.
 
 ### 2. Update Sertifikat
 Saya sudah menyiapkan tempat untuk sertifikat barumu.
