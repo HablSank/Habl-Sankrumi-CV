@@ -65,23 +65,4 @@ document.addEventListener("DOMContentLoaded", function() {
   
 
 
-  
-  // // Contact form submission handling (KAPANKAPAN)
-  // const contactForm = document.querySelector('.contact-form form');
-  // if (contactForm) {
-  //   contactForm.addEventListener('submit', function(e) {
-  //     e.preventDefault();
-  //     // Get form values
-  //     const name = document.getElementById('name').value;
-  //     const email = document.getElementById('email').value;
-  //     const message = document.getElementById('message').value;
-      
-  //     // Here you would normally send the data to a server
-  //     // For now, let's just show an alert
-  //     alert(`Terima kasih ${name}! Pesan anda telah dikirim.`);
-      
-  //     // Reset form
-  //     contactForm.reset();
-  //   });
-  // }
 });
